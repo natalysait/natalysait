@@ -1,0 +1,26 @@
+
+	body {
+		background-color: yellow;
+		color: gray;
+		background-image: url(../images/background.jpg);
+	}
+
+
+	.background {
+		background-image: url();
+		background-repeat: no-repeat;
+	}
+
+	/*
+	body {
+		
+		color: black;
+		background-image: url(../images/background.jpg);
+	}
+
+
+	.background {
+		background-image: url(../images/background9.jpg)
+
+	}/*
+			

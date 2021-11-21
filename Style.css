@@ -1,0 +1,68 @@
+    #container {
+    width: 100%; /* Ширина макета */
+    height: 100%;
+    margin: 0 auto; /* Выравниваем по центру */
+   }
+        #header { 
+    margin-bottom: 5px;
+    font-weight: bold;
+    padding: 50px;
+    background-image: url(images/flower.jpg);            
+    font-size: 2.2em; /* Размер текста */
+    text-align: center; /* Выравнивание по центру */
+    height: 80px;
+   }
+   #nav {
+    float: left; width: 15%; padding: 0px;
+   }
+   #aside {
+       text-align: right;
+    float: right; width: 30%; padding: 0px;
+   }
+        #content {
+    margin: 0 360px; /* Ширина колонок */
+    padding: 1px;
+   }
+        #aside {
+    float: right; color: #000;
+   }
+        #footer { 
+    clear: both; /* Отменяем действие float */
+    background-image: url(images/Black-Wood-Backgrounds.jpg);
+        }
+        #logo {
+        position: relative;
+        top: -35px;
+        float: right;
+        width: 160px;
+        height: 130px;
+    }
+    #litleimage {
+        width: 300px;
+        height: 100px;
+    }
+    .hrefblock {
+        margin-top: 2px; /* Отступ сверху */
+        margin-bottom: 2px; /* Отступ снизу */
+        width: 175px;
+        height: 35px;
+        display: inline-block;
+        background: linear-gradient(to bottom, #464646, #575757);
+        padding: 5px 15px; /* Поля */
+        text-decoration: none;/* Убираем подчёркивание */
+        color: rgb(255, 255, 255); /* Цвет текста */
+    }
+   .hrefblock:hover {
+        background: rgb(255, 73, 73);
+        box-shadow: 0 0 10px rgba(0,0,0,0.3); /* Тень */
+    }
+    li.none {
+        list-style-type: none;
+    }
+    #bigtitle {
+        font-size: 35px;
+        font-weight: 520;
+    }
+    #witecolor {
+        color: rgb(255, 255, 255);
+    }
