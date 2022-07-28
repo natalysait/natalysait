@@ -27,6 +27,7 @@
     float: right; color: #000;
    }
         #footer { 
+    height: 140px;
     clear: both; /* Отменяем действие float */
     background-image: url(images/Black-Wood-Backgrounds.jpg);
         }
@@ -65,4 +66,7 @@
     }
     #witecolor {
         color: rgb(255, 255, 255);
+    }
+    body {
+        margin: 0%;
     }
