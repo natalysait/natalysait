@@ -7,7 +7,7 @@
     margin-bottom: 5px;
     font-weight: bold;
     padding: 50px;
-    background-image: url(images/flower.jpg);            
+    background-image: url(images/snowy-backround.webp);            
     font-size: 4em; /* Размер текста */
     text-align: center; /* Выравнивание по центру */
     height: 80px;
@@ -30,7 +30,7 @@
         #footer { 
     height: 140px;
     clear: both; /* Отменяем действие float */
-    background-image: url(images/pink-backround-1.webp);
+    background-image: url(images/snowy-backround.webp);
         }
         #logo {
         position: relative;
